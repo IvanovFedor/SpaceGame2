@@ -11,13 +11,13 @@ D:\AllInC\VersionsUnity\2021.2.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/UnityProjects/CosmoFeez
+D:/UnityProjects/GitHubRep/SpaceGame2/CosmoFeez
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54361
-Successfully changed project path to: D:/UnityProjects/CosmoFeez
-D:/UnityProjects/CosmoFeez
+52626
+Successfully changed project path to: D:/UnityProjects/GitHubRep/SpaceGame2/CosmoFeez
+D:/UnityProjects/GitHubRep/SpaceGame2/CosmoFeez
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ D:/UnityProjects/CosmoFeez
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 135.69 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 183.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.2.11f1 (e50cafbb4399)
 [Subsystems] Discovering subsystems at path D:/AllInC/VersionsUnity/2021.2.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnityProjects/CosmoFeez/Assets
+[Subsystems] Discovering subsystems at path D:/UnityProjects/GitHubRep/SpaceGame2/CosmoFeez/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'D:/AllInC/VersionsUnity/2021.2.11f1/Editor/Data/Managed'
 Mono path[1] = 'D:/AllInC/VersionsUnity/2021.2.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/AllInC/VersionsUnity/2021.2.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/AllInC/VersionsUnity/2021.2.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004188 seconds.
+Registered in 0.004843 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 134.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 345.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.930 seconds
+- Completed reload, in  1.592 seconds
 Domain Reload Profiling:
-	ReloadAssembly (930ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1593ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (709ms)
-			LoadAssemblies (114ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1318ms)
+			LoadAssemblies (129ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (214ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (434ms)
+			RebuildScriptCaches (183ms)
+			SetupLoadedEditorAssemblies (811ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
+				InitializePlatformSupportModulesInManaged (79ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (135ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (203ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
+				RefreshPlugins (346ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (275ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004493 seconds.
+Registered in 0.005713 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\CosmoFeez\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\CosmoFeez\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\GitHubRep\SpaceGame2\CosmoFeez\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\GitHubRep\SpaceGame2\CosmoFeez\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.473 seconds
+- Completed reload, in  2.119 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1474ms)
-		BeginReloadAssembly (148ms)
+	ReloadAssembly (2121ms)
+		BeginReloadAssembly (186ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1193ms)
-			LoadAssemblies (93ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1759ms)
+			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (378ms)
+			SetupTypeCache (501ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (82ms)
-			SetupLoadedEditorAssemblies (558ms)
+			RebuildScriptCaches (162ms)
+			SetupLoadedEditorAssemblies (841ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (2ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (369ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (563ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3591 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (171.3 KB). Loaded Objects now: 4050.
-Memory consumption went from 130.2 MB to 130.0 MB.
-Total: 4.364900 ms (FindLiveObjects: 0.349300 ms CreateObjectMapping: 0.249900 ms MarkObjects: 3.600500 ms  DeleteObjects: 0.163600 ms)
+Unloading 3592 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (156.9 KB). Loaded Objects now: 4060.
+Memory consumption went from 135.4 MB to 135.2 MB.
+Total: 4.088500 ms (FindLiveObjects: 0.333900 ms CreateObjectMapping: 0.162400 ms MarkObjects: 3.411500 ms  DeleteObjects: 0.179000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -159,37 +159,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1719.693141 seconds.
-  path: Assets/Red.mat
-  artifactKey: Guid(0d39d4933cd8ca14b80b1e8989f582b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Red.mat using Guid(0d39d4933cd8ca14b80b1e8989f582b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8a59d1b14c2ac0aa2d5a4688f7378d') in 0.151003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.373910 seconds.
-  path: Assets/Red.mat
-  artifactKey: Guid(0d39d4933cd8ca14b80b1e8989f582b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Red.mat using Guid(0d39d4933cd8ca14b80b1e8989f582b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a603d214b114416680a6a1ff71ed52') in 0.010572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/white 1.mat
-  artifactKey: Guid(1f797870ce6fa5741b9d98821bbd4d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/white 1.mat using Guid(1f797870ce6fa5741b9d98821bbd4d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '662233e4ae48ea2d206727c92d41a0b5') in 0.009476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.426027 seconds.
+  Time since last request: 722.667519 seconds.
   path: Assets/glass.mat
   artifactKey: Guid(1f797870ce6fa5741b9d98821bbd4d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/glass.mat using Guid(1f797870ce6fa5741b9d98821bbd4d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b00ffc6a6f65f26142c280290b84ed2') in 0.011028 seconds 
+Start importing Assets/glass.mat using Guid(1f797870ce6fa5741b9d98821bbd4d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b02a6a5a9f15dad8bfc46ea823c956d') in 0.146398 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.618534 seconds.
-  path: Assets/glass.mat
-  artifactKey: Guid(1f797870ce6fa5741b9d98821bbd4d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/glass.mat using Guid(1f797870ce6fa5741b9d98821bbd4d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff844479e157c6e9494731cc6019835') in 0.009355 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.129214 seconds.
-  path: Assets/Fantasy Skybox FREE
-  artifactKey: Guid(0a0fb3550cbf3034f86dd56ed4fe8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Skybox FREE using Guid(0a0fb3550cbf3034f86dd56ed4fe8f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34347c7827682fc2001257fd5a9a7400') in 0.001490 seconds 
+  Time since last request: 118.782683 seconds.
+  path: Assets/Red.mat
+  artifactKey: Guid(0d39d4933cd8ca14b80b1e8989f582b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red.mat using Guid(0d39d4933cd8ca14b80b1e8989f582b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3befc7b3217110c041248ae237fe1d0') in 0.013275 seconds 
