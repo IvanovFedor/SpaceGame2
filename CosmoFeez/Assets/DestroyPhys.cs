@@ -24,13 +24,14 @@ public class DestroyPhys : MonoBehaviour
             {
                 if (collision.gameObject.GetComponent<Rigidbody>().velocity.magnitude > 1)
                 {
+                    Debug.Log(gameObject.GetComponent<Rigidbody>().velocity.magnitude);
                     GetComponent<Rigidbody>().isKinematic = false;
                     gameObject.layer = LayerMask.NameToLayer("AntiBlock");
                 }
             }
             else
             {
-                if (collision.gameObject.GetComponent<Rigidbody>().velocity.magnitude * 1000 > 1)
+                if (collision.gameObject.GetComponent<Rigidbody>().velocity.magnitude > 2)
                 {
                     GetComponent<Rigidbody>().isKinematic = false;
                     gameObject.layer = LayerMask.NameToLayer("AntiBlock");
